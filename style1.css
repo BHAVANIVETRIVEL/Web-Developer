@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    background: url("https://blog.adobe.com/hlx_bb736c461f799c927606e4a1d0f7162f10d27023.jpg?auto=webp&format=pjpg&optimize=medium&width=1575");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.wrapper{
+    position:absolute;
+    width:320px;
+    height:520px;
+    background:#000;
+    opacity: 0.8;
+    color:#fff;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 20px;
+}
+h2{
+    margin:0;
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    color:royalblue;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.wrapper input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height:40px;
+    font-size: 14px;
+    color:white;
+}
+.wrapper button[type="submit"]{
+    border:none;
+    outline:none;
+    height: 30px;
+    background: #fb2525;
+    color:#fff;
+    font-size: 15px;
+    border-radius: 20px;
+    align-items: center;
+}
+.wrapper button[type="submit"]:hover{
+    cursor:pointer;
+    background: #ffc107;
+}
+.wrapper input[type="date"]{
+    border-radius: 15px;
+    border:none;
+    height:30px;
+}
+i{
+    padding-right:3px;
+}
